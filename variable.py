@@ -37,5 +37,4 @@ print(list_example[1])
 #변할 수 있는 데이터는 key값으로 사용 불가능
 dict_example = {
 1: 'value 1'
-'a': 'value a',
-#
+}
