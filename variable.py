@@ -20,6 +20,7 @@ print(x)
 print(x.items())
 
 print(x.clear()) # 딕셔너리 지우기
+print(x)
 
 #정오표
 example = {
