@@ -1,9 +1,10 @@
-x = 10   #대입 연산자
+#대입연산자
+x = 10
 y = 15
 
 
 
-#조건 연산자
+#조건연산자
 z = x == y
 print("x == y : ", z)
 z = x != y
@@ -62,7 +63,7 @@ print("array_x * 2 :", array_z)
 array_z = array_x * array_y[0] # 해당 인덱스에 있는 요소가 정수형일 때
 print("array_x + array_y :", array_z)
 
-# 논리 연산자
+# 논리연산자
 report_card = {
     "국어": 3,
     "수학": 2,
