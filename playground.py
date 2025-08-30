@@ -15,3 +15,5 @@ while True:
 
     if user_input.lower() == "z":
         break
+
+    print_times_table(int(user_input))
