@@ -39,6 +39,9 @@ dict_example = {
 1: 'value 1'
 }
 
+
+
+
 x = [1, 2, 3, 4, 5] # list
 #slicing
 print(x[2:5]) #[start_index : end_index+1]
