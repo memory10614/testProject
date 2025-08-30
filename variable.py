@@ -8,6 +8,20 @@ print(x)
 print(x['a'])
 print(type(x))
 
+x['c'] = 10
+print(x)
+print(x['c'])
+print(x['d'])
+# print(x['d'])
+# KeyError: 'd'
+
+del x['a'] # 딕셔너리에서 특정 키값 지우기
+print(x)
+print(x.items())
+
+print(x.clear()) # 딕셔너리 지우기
+
+#정오표
 example = {
     'python': [True, False, True, True, True, True, True, False, False, True],
     'java': [True, False, False, True, True, True, False, False, False, True],
