@@ -60,7 +60,7 @@ array_z = array_x + array_y
 print("array_x + array_y :", array_z)
 array_z = array_x * 2
 print("array_x * 2 :", array_z)
-array_z = array_x * array_y[0] # 해당 인덱스에 있는 요소가 정수형일 때
+array_z = array_x * array_y[0] # 해당 인덱스에 있는 요소가 정수형일 때만 가능
 print("array_x + array_y :", array_z)
 
 # 논리연산자
