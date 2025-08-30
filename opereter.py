@@ -8,6 +8,15 @@ z = x == y
 print("x == y : ", z)
 z = x != y
 print("x != y : ", z)
+z = x > y
+print("x > y : ", z)
+z = x >= y
+print("x >= y : ", z)
+z = x < y
+print("x < y : ", z)
+z = x <= y
+print("x <= y : ", z)
+
 
 #사칙연산
 z = x + y
