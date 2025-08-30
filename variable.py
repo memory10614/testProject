@@ -59,7 +59,7 @@ x[0] = 6
 print(x)
 
 # 참조할 수 없는 위치를 참조했을 때 (배열 길이 이상)
-# IndexError
+# IndexError: list assignment index out of range
 # x[7] = 1
 
 print("배열의 길이==========")
