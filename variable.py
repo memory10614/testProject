@@ -38,3 +38,29 @@ print(list_example[1])
 dict_example = {
 1: 'value 1'
 }
+
+x = [1, 2, 3, 4, 5] # list
+#slicing
+print(x[2:5]) #[start_index : end_index+1]
+print("append==========")
+x.append(7)
+print(x)
+print("insert==========")
+x.insert(1, 9)
+print(x)
+print("remove==========")
+x.remove(1) # 인덱스가 아닌 값을 지우는 함수
+print(x)
+print("9->6==========")
+x[0] = 6
+print(x)
+
+# 참조할 수 없는 위치를 참조했을 때 (배열 길이 이상)
+# IndexError
+# x[7] = 1
+
+print("배열의 길이==========")
+print(len(x))
+
+print("배열의 마지막 인덱스==========")
+print(len(x)-1)
