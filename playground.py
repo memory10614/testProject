@@ -17,4 +17,3 @@ while True:
         break
 
     print_times_table(int(user_input))
-  print ;
