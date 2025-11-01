@@ -18,3 +18,4 @@ while True:
 
     print_times_table(int(user_input))
 print ;
+print ;
