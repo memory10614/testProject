@@ -87,3 +87,16 @@ for student in test:
     print("과학점수:", science_score)
 
 print("학생", student['name'], "==================")
+
+# for 중첩
+# student.keys(), (이름이거나, 학번인 경우) or (배열이 아닌경우) continue
+
+math_score = get_score(student['math'], correct_answer['math'])
+korean_score = get_score(student['korean'], correct_answer['korean'])
+english_score = get_score(student['english'], correct_answer['english'])
+science_score = get_score(student['science'], correct_answer['science'])
+
+print("수학점수:", math_score)
+print("국어점수:", korean_score)
+print("영어점수:", english_score)
+print("과학점수:", science_score)
