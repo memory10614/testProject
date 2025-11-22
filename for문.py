@@ -17,5 +17,6 @@ a =                [1, 5, 2, 4, 5, 2, 3, 4]
 correct_answer =   [1, 3, 2, 4, 5, 3, 1, 2, 3, 4]
 
 # 학생의 점수 구하기 한 문항당 10점이라 가정.
+
 for (student, correct) in zip(a,correct_answer):
     print(student , '/', correct)
