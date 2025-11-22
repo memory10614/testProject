@@ -42,8 +42,11 @@ print("피보나치 수열")
         b = 1
         c = 1
 
-        while c <= inpur_number:
+        while c <= input_number:
             print(c)
             c = a + b
             a = b
             b = c
+
+def pirnt_usingif():
+    if score = int(input("점수를 입력하세요."))
