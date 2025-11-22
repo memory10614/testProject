@@ -1,8 +1,8 @@
-arr = ['AA','BB','CC','DD']
-
-for i in arr:
-    print(i)
-
+# arr = ['AA','BB','CC','DD']
+#
+# for i in arr:
+#     print(i)
+#
 
 #수학
 test = [{ 'answer' : [1, 3, 4, 5, 3, 1, 2, 3, 4]},
@@ -20,3 +20,9 @@ correct_answer =   [1, 3, 2, 4, 5, 3, 1, 2, 3, 4]
 
 for (student, correct) in zip(a,correct_answer):
     print(student , '/', correct)
+
+score = 0
+for (student, correct) in zip(a, correct_answer):
+    if student == correct:
+        score = score + 10
+print(score)
