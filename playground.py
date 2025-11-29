@@ -1,22 +1,17 @@
-def print_times_table(number):
-    print(number, "*", 1, "=", number*1)
-    print(number, "*", 2, "=", number*2)
-    print(number, "*", 3, "=", number*3)
-    print(number, "*", 4, "=", number*4)
-    print(number, "*", 5, "=", number*5)
-    print(number, "*", 6, "=", number*6)
-    print(number, "*", 7, "=", number*7)
-    print(number, "*", 8, "=", number*8)
-    print(number, "*", 9, "=", number*9)
+import random
 
+def UP_DOWN_게임():
+    result = random.randint(1, 100)
+    print("게임을 시작하지.")
 
-while True:
-    user_input = input("값을 입력하세요 : ")
+    while True:
+        user = int(input("1부터 100까지의 아무 숫자나 입력하시오."))
+        if user < result:
+            print("up")
+        elif user > result:
+            print("down")
+        elif user == result:
+            print("게임을 종료하지.")
+            break
 
-    if user_input.lower() == "z":
-        break
-
-    print_times_table(int(user_input))
-print ;
-print ;
-print ;
+UP_DOWN_게임()
