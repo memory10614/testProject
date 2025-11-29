@@ -13,3 +13,5 @@ def UP_DOWN_게임():
         elif user == result:
             print("게임을 종료하지.")
             break
+
+UP_DOWN_게임()
