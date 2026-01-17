@@ -35,28 +35,23 @@ students = {
 print(students[10101])
 
 pool = list(students.keys())
-seat = [[None,None,None,None,None,None],
-        [None,None,None,None,None,None],
-        [None,None,None,None,None,None],
-        [None,None,None,None,None,None],]
+seat = [[None, None, None, None, None, None],
+        [None, None, None, None, None, None],
+        [None, None, None, None, None, None],
+        [None, None, None, None, None, None], ]
 
 while len(pool) > 0:
     # 랜덤으로 사람 뽑기
     randIndex = random.randrange(0, len(pool))
     print(students[pool[randIndex]])
 
-    # randRow = random.randint(0,3)
-    # randCol = random.randint(0,5)
-
     randRow = random.randint(0, len(seat) - 1)
     randCol = random.randint(0, len(seat[0]) - 1)
 
     # 랜덤으로 자리 뽑기
     while seat[randRow][randCol] != None:
-        randRow = random.randint(0,len(seat)-1)
-        randCol = random.randint(0,len(seat[0])-1)
-        print("Row ", randRow, " Col ", randCol)
-
+        randRow = random.randint(0, len(seat) - 1)
+        randCol = random.randint(0, len(seat[0]) - 1)
 
     # 좌석에 할당
     seat[randRow][randCol] = pool[randIndex]
@@ -66,5 +61,4 @@ while len(pool) > 0:
         print(seat[i])
 
     pool.remove(pool[randIndex])
-    print(pool)
     print("------------------------")
